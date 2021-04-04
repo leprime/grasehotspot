@@ -6,6 +6,6 @@ Copiez ce script dans le dossier
 Puis rendez le executable par
  sudo chmod +x /etc/init.d/solvenetwork.sh
 Ensuite ajouter le script dans le groupe des scripts d'initialisation de type système avec la commande 
-sudo update-rc.d /etc/init.d/solvenetwork.sh defaults
+sudo update-rc.d solvenetwork.sh defaults
 
 Puis redemarrer votre serveur et le tour est joué
